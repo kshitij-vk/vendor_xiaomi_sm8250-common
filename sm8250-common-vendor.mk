@@ -109,6 +109,34 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm8250-common/proprietary/vendor/bin/xtwifi-inet-agent:$(TARGET_COPY_OUT_VENDOR)/bin/xtwifi-inet-agent \
     vendor/xiaomi/sm8250-common/proprietary/vendor/etc/apdr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/apdr.conf \
     vendor/xiaomi/sm8250-common/proprietary/vendor/etc/cacert_location.pem:$(TARGET_COPY_OUT_VENDOR)/etc/cacert_location.pem \
+    vendor/xiaomi/sm8250-common/proprietary/vendor/etc/perf/thermalboost.conf:$(TARGET_OUT_VENDOR)/etc/perf/thermalboost.conf \
+    vendor/xiaomi/sm8250-common/proprietary/vendor/etc/thermal-camera.conf:$(TARGET_OUT_VENDOR)/etc/thermal-camera.conf \
+    vendor/xiaomi/sm8250-common/proprietary/vendor/etc/thermal-class0.conf:$(TARGET_OUT_VENDOR)/etc/thermal-class0.conf \
+    vendor/xiaomi/sm8250-common/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_OUT_VENDOR)/etc/thermal-engine.conf \
+    vendor/xiaomi/sm8250-common/proprietary/vendor/etc/thermal-india-class0.conf:$(TARGET_OUT_VENDOR)/etc/thermal-india-class0.conf \
+    vendor/xiaomi/sm8250-common/proprietary/vendor/etc/thermal-india-mgame.conf:$(TARGET_OUT_VENDOR)/etc/thermal-india-mgame.conf \
+    vendor/xiaomi/sm8250-common/proprietary/vendor/etc/thermal-india-normal.conf:$(TARGET_OUT_VENDOR)/etc/thermal-india-normal.conf \
+    vendor/xiaomi/sm8250-common/proprietary/vendor/etc/thermal-india-per-class0.conf:$(TARGET_OUT_VENDOR)/etc/thermal-india-per-class0.conf \
+    vendor/xiaomi/sm8250-common/proprietary/vendor/etc/thermal-india-per-normal.conf:$(TARGET_OUT_VENDOR)/etc/thermal-india-per-normal.conf \
+    vendor/xiaomi/sm8250-common/proprietary/vendor/etc/thermal-india-per-video.conf:$(TARGET_OUT_VENDOR)/etc/thermal-india-per-video.conf \
+    vendor/xiaomi/sm8250-common/proprietary/vendor/etc/thermal-india-tgame.conf:$(TARGET_OUT_VENDOR)/etc/thermal-india-tgame.conf \
+    vendor/xiaomi/sm8250-common/proprietary/vendor/etc/thermal-india-video.conf:$(TARGET_OUT_VENDOR)/etc/thermal-india-video.conf \
+    vendor/xiaomi/sm8250-common/proprietary/vendor/etc/thermal-map-india.conf:$(TARGET_OUT_VENDOR)/etc/thermal-map-india.conf \
+    vendor/xiaomi/sm8250-common/proprietary/vendor/etc/thermal-map.conf:$(TARGET_OUT_VENDOR)/etc/thermal-map.conf \
+    vendor/xiaomi/sm8250-common/proprietary/vendor/etc/thermal-mgame.conf:$(TARGET_OUT_VENDOR)/etc/thermal-mgame.conf \
+    vendor/xiaomi/sm8250-common/proprietary/vendor/etc/thermal-navigation.conf:$(TARGET_OUT_VENDOR)/etc/thermal-navigation.conf \
+    vendor/xiaomi/sm8250-common/proprietary/vendor/etc/thermal-nolimits.conf:$(TARGET_OUT_VENDOR)/etc/thermal-nolimits.conf \
+    vendor/xiaomi/sm8250-common/proprietary/vendor/etc/thermal-normal.conf:$(TARGET_OUT_VENDOR)/etc/thermal-normal.conf \
+    vendor/xiaomi/sm8250-common/proprietary/vendor/etc/thermal-per-camera.conf:$(TARGET_OUT_VENDOR)/etc/thermal-per-camera.conf \
+    vendor/xiaomi/sm8250-common/proprietary/vendor/etc/thermal-per-class0.conf:$(TARGET_OUT_VENDOR)/etc/thermal-per-class0.conf \
+    vendor/xiaomi/sm8250-common/proprietary/vendor/etc/thermal-per-navigation.conf:$(TARGET_OUT_VENDOR)/etc/thermal-per-navigation.conf \
+    vendor/xiaomi/sm8250-common/proprietary/vendor/etc/thermal-per-normal.conf:$(TARGET_OUT_VENDOR)/etc/thermal-per-normal.conf \
+    vendor/xiaomi/sm8250-common/proprietary/vendor/etc/thermal-per-video.conf:$(TARGET_OUT_VENDOR)/etc/thermal-per-video.conf \
+    vendor/xiaomi/sm8250-common/proprietary/vendor/etc/thermal-phone.conf:$(TARGET_OUT_VENDOR)/etc/thermal-phone.conf \
+    vendor/xiaomi/sm8250-common/proprietary/vendor/etc/thermal-region-map.conf:$(TARGET_OUT_VENDOR)/etc/thermal-region-map.conf \
+    vendor/xiaomi/sm8250-common/proprietary/vendor/etc/thermal-tgame.conf:$(TARGET_OUT_VENDOR)/etc/thermal-tgame.conf \
+    vendor/xiaomi/sm8250-common/proprietary/vendor/etc/thermal-video.conf:$(TARGET_OUT_VENDOR)/etc/thermal-video.conf \
+    vendor/xiaomi/sm8250-common/proprietary/vendor/etc/thermald-devices.conf:$(TARGET_OUT_VENDOR)/etc/thermald-devices.conf \
     vendor/xiaomi/sm8250-common/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile1.xml \
     vendor/xiaomi/sm8250-common/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile2.xml \
     vendor/xiaomi/sm8250-common/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile3.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile3.xml \
