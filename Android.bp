@@ -5060,6 +5060,7 @@ cc_prebuilt_library_shared {
 		},
 	},
 	compile_multilib: "64",
+	allow_undefined_symbols: true,
 	prefer: true,
 	soc_specific: true,
 }
@@ -5162,6 +5163,7 @@ cc_prebuilt_library_shared {
 		},
 	},
 	compile_multilib: "64",
+	allow_undefined_symbols: true,
 	relative_install_path: "mediadrm",
 	prefer: true,
 	soc_specific: true,
