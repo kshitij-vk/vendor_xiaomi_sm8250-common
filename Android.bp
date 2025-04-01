@@ -8715,7 +8715,7 @@ cc_prebuilt_binary {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/system_ext/bin/wfdservice64"],
-			shared_libs: ["liblog", "libutils", "libcutils", "libbinder", "libwfdservice", "libmmosal", "libwfdcommonutils", "libwfdconfigutils", "libhidlbase", "libavservices_minijail", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libwfdservice_shim_v1","liblog", "libutils", "libcutils", "libbinder", "libwfdservice", "libmmosal", "libwfdcommonutils", "libwfdconfigutils", "libhidlbase", "libavservices_minijail", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
